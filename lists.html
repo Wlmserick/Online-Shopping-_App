@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lists</title>
+    <style>
+        body{
+            background-color: aqua;
+        }
+    </style>
+
+<nav>
+    <ul class="links">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="tables.html">Table</a></li>
+        <li><a href="forms.html">Form</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="location.html">Location</a></li>
+    </ul>
+</nav>
+
+<style>
+    /* Reset the default list styles */
+ul.links {
+list-style: none;
+padding: 0;
+}
+
+/* Display list items horizontally */
+ul.links li {
+display: inline;
+margin-right: 20px; /* Add space between list items */
+}
+
+/* Style the links */
+ul.links li a {
+text-decoration: none;
+color: red;
+font-weight: bold;
+font-size: 25px;
+}
+
+/* Add spacing to the header */
+header {
+padding: 10px;
+}
+
+/* Center the navigation bar */
+nav {
+text-align: center;
+}
+
+</style>
+
+
+</head>
+<body>
+    <h1>Popular web browsers</h1>
+<ol type="I">
+    <li>Firefox</li>
+    <li>Chrome</li>
+    <li>Opera mini</li>
+    <li>Brave</li>
+    <li>Internet explorer</li>
+    <li>Safari</li>
+</ol>
+
+<h1>To-do-list</h1>
+<ul style="list-style: none;">
+    <li>Make a list</li>
+    <li>Take trash out</li>
+    <li>Read</li>
+    <li>Write</li>
+</ul>
+
+<!-- nested lists -->
+
+<h1>Nested HTML List</h1>
+<p>A nested list contains a list inside a list</p>
+<ul>
+    <li>Copy books
+
+        <ol type="i">
+            <li>Roman books</li>
+            <li>Fairy tale books</li>
+        </ol>
+
+    </li>
+    <li>Roman books
+
+        <ul>
+            <li>Detective books</li>
+            <li>Roman books</li>
+            <li>Fairy tale books</li>
+        </ul>
+
+    </li>
+    <li>Fairy tales books</li>
+</ul>
+</body>
+</html>
+

@@ -1,0 +1,53 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    background-color: white;
+    display: grid;
+}
+
+form{
+    
+    background-color: yellow;
+    padding: 20px 30px;
+    width: 500px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px -5px gray;
+}
+
+h1{
+    text-align: center;
+    color: black;
+}
+
+label{
+    font-weight: bold;
+}
+
+input[type="text"], input[type="email"]{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100%;
+}
+
+#nationality{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100%;
+}
+
+input[type="submit"]{
+    padding: 10px 20px;
+    font-weight: bolder;
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover{
+    background-color: gainsboro;
+}

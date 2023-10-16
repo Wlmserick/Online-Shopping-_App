@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tables</title>
+    <Style>
+        table{
+            border-collapse: collapse;
+            width: 75%;
+            margin: 10%;
+            text-align: center;
+        }
+        th,td{
+            border: 2px solid black;;
+        }
+        caption{
+            font-size: 45px;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            font-weight: 100;
+        }
+        .greens{
+            background-color: rgb(11, 171, 11);
+           
+        }
+
+        .Blues{
+            background-color: rgb(64, 142, 244);
+        }
+
+    </Style>
+
+<nav>
+    <ul class="links">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="lists.html">List</a></li>
+        <li><a href="forms.html">Form</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="location.html">Location</a></li>
+    </ul>
+</nav>
+
+<style>
+    /* Reset the default list styles */
+ul.links {
+list-style: none;
+padding: 0;
+}
+
+/* Display list items horizontally */
+ul.links li {
+display: inline;
+margin-right: 20px; /* Add space between list items */
+}
+
+/* Style the links */
+ul.links li a {
+text-decoration: none;
+color: rgb(64, 142, 244);
+font-weight: bold;
+font-size: 25px;
+}
+
+/* Add spacing to the header */
+header {
+padding: 10px;
+}
+
+/* Center the navigation bar */
+nav {
+text-align: center;
+}
+
+</style>
+
+</head>
+<body>
+   
+    <table>
+        <caption>Employee Table</caption>
+        <tr class="greens">
+            <th>EmpId</th>
+            <th>EmpName</th>
+            <th>EmpDept</th>
+            <th>EmpSalary</th>
+        </tr>
+        <tr>
+            <td>101</td>
+            <td>Joe</td>
+            <td>Development</td>
+            <td>50000</td>
+        </tr>
+        <tr class="Blues">
+            <td>102</td>
+            <td>Mary</td>
+            <td>Testing</td>
+            <td>30000</td>
+        </tr>
+        <tr>
+            <td>103</td>
+            <td>Beck</td>
+            <td>Analyst</td>
+            <td>40000</td>
+        </tr>
+        <tr class="Blues">
+            <td>104</td>
+            <td>Candice</td>
+            <td>Development</td>
+            <td>45000</td>
+        </tr>
+    </table>
+</body>
+</html>
